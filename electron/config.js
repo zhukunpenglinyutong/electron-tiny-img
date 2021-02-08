@@ -6,7 +6,7 @@
 
 const path = require('path');
 
-const APPINDEXPATH = `file://${path.join(__dirname, '../../build/index.html')}`
+const APPINDEXPATH = `file://${path.join(__dirname, '../build/index.html')}`
 
 module.exports = {
 
