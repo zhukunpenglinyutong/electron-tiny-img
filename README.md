@@ -14,9 +14,10 @@
 
 ---
 
-### 说明
+### 重要说明
 
-> 本程序必须联网才可正常使用，dmg安装包已经打包好了，放到了版本记录里面 [点这里](https://github.com/zhukunpenglinyutong/electron-tiny-img/releases/tag/1.0.0)
+- dmg安装包已经打包好了，放到了版本记录里面 [点这里](https://github.com/zhukunpenglinyutong/electron-tiny-img/releases/tag/1.0.0)
+- 本程序必须联网才可正常使用
 
 ---
 ### 功能介绍
@@ -60,7 +61,7 @@ npm run dist
 
 ---
 
-### 文件目录介绍
+### 源码目录介绍
 
 - src：源文件（就是后台那一套）
 - electron：electron 逻辑文件夹
