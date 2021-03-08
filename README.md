@@ -13,6 +13,12 @@
 为了做一个自己感觉比较方便的压缩图片工具，我开发了这个项目
 
 ---
+
+### 说明
+
+> 本程序必须联网才可正常使用，dmg安装包已经打包好了，放到了版本记录里面 [点这里](https://github.com/zhukunpenglinyutong/electron-tiny-img/releases/tag/1.0.0)
+
+---
 ### 功能介绍
 
 > 版本：v1.0.0
