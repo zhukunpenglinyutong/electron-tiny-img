@@ -1,6 +1,6 @@
 {
   "name": "electron-tiny-img",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "author": "朱昆鹏",
   "main": "main.js",
@@ -19,9 +19,6 @@
     "appId": "img.zhu.electron",
     "productName": "图片压缩客户端",
     "copyright": "朱昆鹏",
-    "win": {
-      "requestedExecutionLevel": "highestAvailable"
-    },
     "files": [
       "build/**/*",
       "node_modules/**/*",
@@ -29,7 +26,37 @@
       "package.json",
       "main.js",
       "electron/**/*"
-    ]
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "extends": null,
+    "dmg": {
+      "background": "assets/icon/appdmg.png",
+      "icon": "assets/icon.icns",
+      "contents": [
+        {
+          "x": 380,
+          "y": 280,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 110,
+          "y": 280,
+          "type": "file"
+        }
+      ],
+      "window": {
+        "width": 900,
+        "height": 500
+      }
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false,
+      "perMachine": false
+    }
   },
   "dependencies": {
     "ant-design-vue": "^1.7.2",
@@ -53,17 +80,17 @@
     "xterm": "^4.9.0"
   },
   "devDependencies": {
-    "git-cz": "^4.7.1",
     "@vue/cli-plugin-babel": "^4.5.0",
     "@vue/cli-plugin-eslint": "^4.5.0",
     "@vue/cli-plugin-router": "^4.5.0",
     "@vue/cli-service": "^4.5.0",
     "babel-eslint": "^10.1.0",
     "concurrently": "^5.3.0",
-    "electron": "^10.1.3",
+    "electron": "^10.4.7",
     "electron-builder": "^22.8.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "git-cz": "^4.7.1",
     "vue-template-compiler": "^2.6.11",
     "wait-on": "^5.2.0"
   }
