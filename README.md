@@ -1,11 +1,13 @@
 # 图片无损压缩客户端
 
 <p align="center">
+    <img width="220px" src="./assets/doc/logo.png" />
+</p>
+<p align="center">
     <a href="javascript:;"><img src="https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg" alt="MIT"></a>
     <a href="javascript:;"><img src="https://img.shields.io/github/languages/code-size/zhukunpenglinyutong/electron-tiny-img" alt="文件大小"></a>
     <a href="javascript:;"><img src="https://img.shields.io/github/last-commit/zhukunpenglinyutong/electron-tiny-img" alt="最后一次提交"></a>
     <a href="javascript:;"><img src="https://img.shields.io/github/commit-activity/y/zhukunpenglinyutong/electron-tiny-img" alt="每年提交数"></a>
-    <img width="220px" src="./assets/doc/logo.png" />
 </p>
 
 ---
