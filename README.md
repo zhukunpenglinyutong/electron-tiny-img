@@ -5,7 +5,7 @@
     <a href="javascript:;"><img src="https://img.shields.io/github/languages/code-size/zhukunpenglinyutong/electron-tiny-img" alt="文件大小"></a>
     <a href="javascript:;"><img src="https://img.shields.io/github/last-commit/zhukunpenglinyutong/electron-tiny-img" alt="最后一次提交"></a>
     <a href="javascript:;"><img src="https://img.shields.io/github/commit-activity/y/zhukunpenglinyutong/electron-tiny-img" alt="每年提交数"></a>
-    <img style="width: 200px;" src="./assets/doc/logo.png" />
+    <img width="220px" src="./assets/doc/logo.png" />
 </p>
 
 ---
